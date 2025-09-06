@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+a.active hr{
+  display: block;
+}
+
+::-webkit-scrollbar {
+  display:none;
+}
+
+@media (max-width: 640px) {
+  a.active{
+    background-color: black;
+    color: white;
+  }
+}
+h1{
+  font: bold 1.25rem sans-serif;
+  line-height: 1.75rem;
+}
