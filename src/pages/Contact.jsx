@@ -3,7 +3,9 @@ import Title from '../components/Title'
 import assets from '../assets/assets'
 import NewsletterBox from '../components/NewsletterBox'
 
+
 const Contact = () => {
+  const web3formsAccessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
   return (
     <div className='border-t'>
       <div className=' text-xl font-semibold text-center py-8'>
@@ -33,7 +35,7 @@ const Contact = () => {
               <input
                 type="hidden"
                 name="access_key"
-                value="c573cda8-2be6-49c8-9675-496a0dcc3fbb"
+                value={web3formsAccessKey}
               />
               
               <div>
