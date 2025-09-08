@@ -1,7 +1,7 @@
 /// src/context/ShopContextProvider.jsx
 import React,{ useState }  from 'react';
 import { ShopContext } from '../context/ShopContext';
-import { products } from '../assets/products';
+import { products } from '../assets/assets';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 

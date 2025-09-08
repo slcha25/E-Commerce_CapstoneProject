@@ -10,6 +10,7 @@ export default defineConfig({
   ],
   build: {
     outDir: 'dist',
+    assetsDir: 'assets,assets/insideOut',
   },
   server: {
     port: 3000,
