@@ -8,7 +8,7 @@ import NewsletterBox from '../components/NewsletterBox'
 const Home = () => {
   return (
     <div>
-        <h1 className='text-2xl m-auto sm:text-lg md:text-base font-sans font-semibold py-10 flex justify-center'>Welcome to emotion store! Discover your emotion and explore your own experience.</h1> 
+        <h1 className='text-2x1 m-auto sm:text-lg md:text-base font-sans font-semibold py-10 flex justify-center'>Welcome to emotion store! Discover your emotion and explore your own experience.</h1> 
         <Hero/>
         <NewCollection/>
         <BestSeller/>

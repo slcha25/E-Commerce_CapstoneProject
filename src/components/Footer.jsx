@@ -28,7 +28,7 @@ const Footer = () => {
             </ul>
          </div>
          <div>
-        <p className='text-shadow-gray-200 text-lg mb-10'>© 2025 Created by Sandra Chan. All rights reserved.</p>
+        <p className='text-shadow-gray-200 text-base mb-10'>© 2025 Sandra Chan. All rights reserved.</p>
     </div>
     </div>
     

@@ -13,7 +13,12 @@ import support_agent from './support_agent.png';
 import arrow_down from './Arrow_down.png';
 import cross from './cross.png';
 import star from './star.png';
-import star_null from './star_null.png';    
+import star_null from './star_null.png';
+import bin from './bin.png';    
+import Inside_Out_2 from './Inside_Out_2.jpeg';
+import Stripe_Logo from './Stripe_Logo.png';
+import About_us from './About_us.jpg';
+import Contact from './Contact.webp';
 
 // Export assets
 const assets = {
@@ -32,6 +37,11 @@ const assets = {
     cross,
     star,
     star_null,
+    bin,
+    Inside_Out_2,
+    Stripe_Logo,
+    About_us,
+    Contact,
 };
 
 export default assets;

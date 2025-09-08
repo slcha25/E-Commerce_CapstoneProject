@@ -49,7 +49,7 @@ const Navbar = () => {
                 <img onClick={handleSearchClick} src={assets.search_icon} className='w-8 sm:w-10 cursor-pointer' alt="search icon" />
 
                 <div className='group relative'>
-                    <img src={assets.Admin_icon} className='w-8 sm:w-10 cursor-pointer' alt="admin icon" />
+                  <Link to='/Login'><img src={assets.Admin_icon} className='w-8 sm:w-10 cursor-pointer' alt="admin icon" /></Link>
                     <div className='group-hover:block hidden absolute dropdown-menu right-0 pt-4'>
                         <div className='flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text-gray-500 rounded'>
                             <p className='cursor-pointer hover:tex-black'>My Profit</p>

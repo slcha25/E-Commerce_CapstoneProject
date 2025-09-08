@@ -15,9 +15,9 @@ const NewCollection = () => {
 
   return (
     <div className='my-10'>
-      <div className='text-center py-8 text-3xl'>
+      <div className='text-center py-8 text-2xl'>
         <Title text1={'New'} text2={'Collection'} />  
-        <p className='w-3/4 m-auto text-lg sm:text-lg md:text-s text-gray-600'>
+        <p className='w-3/4 m-auto text-base sm:text-base md:text-s text-gray-600'>
             Explore your emotion with our new collection of exclusive products, designed to inspire and elevate your everyday life.
             </p> 
       </div>
