@@ -1,6 +1,7 @@
 import React from 'react'
 import Title from '../components/Title'
 import assets from '../assets/assets'
+import NewsletterBox from '../components/NewsletterBox'
 
 const About = () => {
   return (
@@ -35,6 +36,7 @@ const About = () => {
       <p className='text-2xl font-semibold text-center'>Quality Assurance</p>
       <p className='mt-4'>All our products are carefully curated to ensure they meet our high standards of quality and design. We work with trusted suppliers to bring you the best merchandise that you'll love.</p></div>
       </div>
+      <NewsletterBox/>
   </div>
   )
 }
