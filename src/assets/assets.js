@@ -52,7 +52,7 @@ export const products = [
         _id: 0,
         name: "Joy",
         price: 5.00,
-        image: ["/src/assets/Joy1.webp"], // Update with actual filenames
+        image: ["/assets/products/Joy1.webp"], // Update with actual filenames
         category: "photos",
         description: "One of the main characters representing happiness",
         bestSeller: true ,// Added this property
@@ -63,7 +63,7 @@ export const products = [
       _id: 1,
       name: "Sadness",
       price: 5.00,
-      image: ["/src/assets/Sadness.webp"], // Update with actual filenames
+      image: ["/assets/products/Sadness.webp"], // Update with actual filenames
       category: "photos",
       description: "One of the main characters representing sadness",
       bestSeller: true, // Added this property
@@ -74,7 +74,7 @@ export const products = [
         _id: 2,
         name: "Anger",
         price: 5.00,
-        image: ["/src/assets/Anger.webp"], // Update with actual filenames
+        image: ["/assets/products/Anger.webp"], // Update with actual filenames
         category: "photos",
         description: "One of the main characters representing anger",
         bestSeller: false, // Added this property
@@ -85,7 +85,7 @@ export const products = [
         _id: 3,
         name: "Disgust",
         price: 5.00,
-        image: ["/src/assets/Disgust.png"], // Update with actual filenames
+        image: ["/assets/products/Disgust.png"], // Update with actual filenames
         category: "photos",
         description: "One of the main characters representing disgust",
         bestSeller: false,
@@ -96,7 +96,7 @@ export const products = [
         _id: 4,
         name: "Fear",
         price: 5.00,
-        image: ["/src/assets/Fear.png"], // Update with actual filenames
+        image: ["/assets/products/Fear.png"], // Update with actual filenames
         category: "photos",
         description: "One of the main characters representing fear",
         bestSeller: false,
@@ -107,7 +107,7 @@ export const products = [
         _id: 5,
         name: "Embarrassment",
         price: 5.00,
-        image: ["/src/assets/Embarrassment.webp"], // Update with actual filenames
+        image: ["/assets/products/Embarrassment.webp"], // Update with actual filenames
         category: "photos",
         description: "A character representing embarrassment",
         bestSeller: true,
@@ -118,7 +118,7 @@ export const products = [
         _id: 6,
         name: "Envy",
         price: 5.00,
-        image: ["/src/assets/Envy.webp"], // Update with actual filenames
+        image: ["/assets/products/Envy.webp"], // Update with actual filenames
         category: "photos",
         description: "A character representing envy",
         bestSeller: false,
@@ -129,7 +129,7 @@ export const products = [
         _id: 7,
         name: "Ennui",
         price: 5.00,
-        image: ["/src/assets/Ennui.webp"], // Update with actual filenames
+        image: ["/assets/products/Ennui.webp"], // Update with actual filenames
         category: "photos",
         description: "A character representing ennui",
         bestSeller: false,
@@ -140,7 +140,7 @@ export const products = [
         _id: 8,
         name: "Anxiety",
         price: 5.00,
-        image: ["/src/assets/Anxiety.webp"], // Update with actual filenames
+        image: ["/assets/products/Anxiety.webp"], // Update with actual filenames
         category: "photos",
         description: "A character representing anxiety",
         bestSeller: true,
@@ -151,7 +151,7 @@ export const products = [
         _id: 9,
         name: "Nostalgia",
         price: 5.00,
-        image: ["/src/assets/Nostalgia.webp"], // Update with actual filenames
+        image: ["/assets/products/Nostalgia.webp"], // Update with actual filenames
         category: "photos",
         description: "A character representing memories",
         bestSeller: true,
@@ -162,7 +162,7 @@ export const products = [
         _id: 10,
         name: "BingBong",
         price: 5.00,
-        image: ["/src/assets/BingBong.webp"], // Update with actual filenames
+        image: ["/assets/products/BingBong.webp"], // Update with actual filenames
         category: "photos",
         description: "A character representing Riley's imaginary friend",
         bestSeller: true,
@@ -173,7 +173,7 @@ export const products = [
         _id: 11,
         name: "Riley Andersen",
         price: 5.00,
-        image: ["/src/assets/Riley_Andersen.webp"], // Update with actual filenames
+        image: ["/assets/products/Riley_Andersen.webp"], // Update with actual filenames
         category: "photos",
         description: "The main human character in the movie",
         bestSeller: true,
@@ -184,7 +184,7 @@ export const products = [
         _id: 12,
         name: "Jill Andersen",
         price: 5.00,
-        image: ["/src/assets/Jill_Andersen.jpg"], // Update with actual filenames
+        image: ["/assets/products/Jill_Andersen.jpg"], // Update with actual filenames
         category: "photos",
         description: "Riley's mother",
         bestSeller: false,
@@ -195,7 +195,7 @@ export const products = [
         _id: 13,
         name: "Joy & Sadness",
         price: 6.00,
-        image: ["/src/assets/Joy_Sadness.webp"], // Update with actual filenames
+        image: ["/assets/products/Joy_Sadness.webp"], // Update with actual filenames
         category: "photos",
         description: "Joy and Sadness together",
         bestSeller: true,
@@ -206,7 +206,7 @@ export const products = [
         _id: 14,
         name: "Inside Out Group",
         price: 8.00,
-        image: ["/src/assets/InsideOut1.webp"], // Update with actual filenames
+        image: ["/assets/products/InsideOut1.webp"], // Update with actual filenames
         category: "photos",
         description: "Main characters from Inside Out",
         bestSeller: true,
@@ -217,7 +217,7 @@ export const products = [
       _id: 15,
       name: "InsideOut 1 Movie DVD",
       price: 19.99,
-      image: ["/src/assets/InsideOut1.jpeg"],
+      image: ["/assets/products/InsideOut1.jpeg"],
       category: "movies",
       description: "InsideOut 1 Movie DVD",
       bestSeller: true,
@@ -228,7 +228,7 @@ export const products = [
         _id: 16,
         name: "InsideOut 2 Movie DVD",
         price: 19.99,
-        image: ["/src/assets/InsideOut2.jpeg"],
+        image: ["/assets/products/InsideOut2.jpeg"],
         category: "movies",
         description: "InsideOut 2 Movie DVD",
         bestSeller: true,
@@ -239,7 +239,7 @@ export const products = [
       _id: 17,
       name: "Inside Out 2 Group Movie Poster",
       price: 15.99,
-      image: ["/src/assets/AllEmotion.webp"],
+      image: ["/assets/products/AllEmotion.webp"],
       category: "posters",
       description: "Inside Out 2 Group Movie Poster",
       bestSeller: true,
@@ -250,7 +250,7 @@ export const products = [
         _id: 18,
         name: "Movie Poster-Joy",
         price: 15.99,
-        image: ["/src/assets/Joy_p.webp"],
+        image: ["/assets/products/Joy_p.webp"],
         category: "posters",
         description: "Inside Out 2 Joy Movie Poster",
         bestSeller: true,
@@ -261,7 +261,7 @@ export const products = [
         _id: 19,
         name: "Movie Poster-Sadness",
         price: 15.99,
-        image: ["/src/assets/Sadness_p.jpg"],
+        image: ["/assets/products/Sadness_p.jpg"],
         category: "posters",
         description: "Inside Out 2 Sadness Movie Poster",
         bestSeller: true,
@@ -272,7 +272,7 @@ export const products = [
         _id: 20,
         name: "Movie Poster-Anger",
         price: 15.99,
-        image: ["/src/assets/Anger_p.jpg"],
+        image: ["/assets/products/Anger_p.jpg"],
         category: "posters",
         description: "Inside Out 2 Anger Movie Poster",
         bestSeller: false,
@@ -283,7 +283,7 @@ export const products = [
         _id: 21,
         name: "Movie Poster-Disgust",
         price: 15.99,
-        image: ["/src/assets/Disgust_p.webp"],
+        image: ["/assets/products/Disgust_p.webp"],
         category: "posters",
         description: "Inside Out 2 Disgust Movie Poster",
         bestSeller: false,
@@ -294,7 +294,7 @@ export const products = [
         _id: 22,
         name: "Movie Poster-Fear",
         price: 15.99,
-        image: ["/src/assets/Fear_p.jpg"],
+        image: ["/assets/products/Fear_p.jpg"],
         category: "posters",
         description: "Inside Out 2 Fear Movie Poster",
         bestSeller: false,
@@ -305,7 +305,7 @@ export const products = [
         _id: 23,
         name: "Movie Poster-Embarrassment",
         price: 15.99,
-        image: ["/src/assets/Embarrassment_p.webp"],
+        image: ["/assets/products/Embarrassment_p.webp"],
         category: "posters",
         description: "Inside Out 2 Embarrassment Movie Poster",
         bestSeller: true,
@@ -316,7 +316,7 @@ export const products = [
         _id: 24,
         name: "Movie Poster-Anxiety",
         price: 15.99,
-        image: ["/src/assets/Anxiety_p.jpeg"],
+        image: ["/assets/products/Anxiety_p.jpeg"],
         category: "posters",
         description: "Inside Out 2 Anxiety Movie Poster",
         bestSeller: true,
@@ -327,7 +327,7 @@ export const products = [
         _id: 25,
         name: "Movie Poster-Envy",
         price: 15.99,
-        image: ["/src/assets/Envy_p.jpeg"],
+        image: ["/assets/products/Envy_p.jpeg"],
         category: "posters",
         description: "Inside Out 2 Envy Movie Poster",
         bestSeller: true,
@@ -338,7 +338,7 @@ export const products = [
         _id: 26,
         name: "Movie Poster-Ennui",
         price: 15.99,
-        image: ["/src/assets/Ennui_p.jpg"],
+        image: ["/assets/products/Ennui_p.jpg"],
         category: "posters",
         description: "Inside Out 2 Ennui Movie Poster",
         bestSeller: false,
@@ -349,7 +349,7 @@ export const products = [
         _id: 27,
         name: "Movie Memory Scene Poster",
         price: 15.99,
-        image: ["/src/assets/MemoryScene.jpeg"],
+        image: ["/assets/products/MemoryScene.jpeg"],
         category: "posters",
         description: "Inside Out Movie Memory Scene Poster",
         bestSeller: true,
@@ -361,9 +361,9 @@ export const products = [
         name: "Joy Sweater",
         price: 49.99,
         image: [
-          "/src/assets/JoySweater.jpg",
-          "/src/assets/JoySweater1.jpg", 
-          "/src/assets/JoySweater2.jpg"
+          "/assets/products/JoySweater.jpg",
+          "/assets/products/JoySweater1.jpg", 
+          "/assets/products/JoySweater2.jpg"
         ],
         category: "sweaters",
         description: "Joy-themed sweater",
@@ -376,9 +376,9 @@ export const products = [
         name: "Sadness Sweater",
         price: 49.99,
         image: [
-          "/src/assets/SadnessSweater.jpg",
-          "/src/assets/SadnessSweater1.jpg", 
-          "/src/assets/SadnessSweater2.jpg"
+          "/assets/products/SadnessSweater.jpg",
+          "/assets/products/SadnessSweater1.jpg", 
+          "/assets/products/SadnessSweater2.jpg"
         ],
         category: "sweaters",
         description: "Sadness-themed sweater",
@@ -391,9 +391,9 @@ export const products = [
         name: "Anger Sweater",
         price: 49.99,
         image: [
-          "/src/assets/AngerSweater.jpg",
-          "/src/assets/AngerSweater1.jpg", 
-          "/src/assets/AngerSweater2.jpg"
+          "/assets/products/AngerSweater.jpg",
+          "/assets/products/AngerSweater1.jpg", 
+          "/assets/products/AngerSweater2.jpg"
         ],
         category: "sweaters",
         description: "Anger-themed sweater",
@@ -406,9 +406,9 @@ export const products = [
         name: "Disgust Sweater",
         price: 49.99,
         image: [
-          "/src/assets/DisgustSweater.jpg",
-          "/src/assets/DisgustSweater1.jpg", 
-          "/src/assets/DisgustSweater2.jpg"
+          "/assets/products/DisgustSweater.jpg",
+          "/assets/products/DisgustSweater1.jpg", 
+          "/assets/products/DisgustSweater2.jpg"
         ],
         category: "sweaters",
         description: "Disgust-themed sweater",
@@ -421,9 +421,9 @@ export const products = [
         name: "Fear Sweater",
         price: 49.99,
         image: [
-          "/src/assets/FearSweater.jpg",
-          "/src/assets/FearSweater1.jpg", 
-          "/src/assets/FearSweater2.jpg"
+          "/assets/products/FearSweater.jpg",
+          "/assets/products/FearSweater1.jpg", 
+          "/assets/products/FearSweater2.jpg"
         ],
         category: "sweaters",
         description: "Fear-themed sweater",
@@ -436,9 +436,9 @@ export const products = [
         name: "Anxiety Sweater",
         price: 49.99,
         image: [
-          "/src/assets/AnxietySweater.jpg",
-          "/src/assets/AnxietySweater1.jpg", 
-          "/src/assets/AnxietySweater2.jpg"
+          "/assets/products/AnxietySweater.jpg",
+          "/assets/products/AnxietySweater1.jpg", 
+          "/assets/products/AnxietySweater2.jpg"
         ],
         category: "sweaters",
         description: "Anxiety-themed sweater",
@@ -451,9 +451,9 @@ export const products = [
         name: "Embarrassment Sweater",
         price: 49.99,
         image: [
-          "/src/assets/EmbarrassmentSweater.jpg",
-          "/src/assets/EmbarrassmentSweater1.jpg", 
-          "/src/assets/EmbarrassmentSweater2.jpg"
+          "/assets/products/EmbarrassmentSweater.jpg",
+          "/assets/products/EmbarrassmentSweater1.jpg", 
+          "/assets/products/EmbarrassmentSweater2.jpg"
         ],
         category: "sweaters",
         description: "Embarrassment-themed sweater",
@@ -466,9 +466,9 @@ export const products = [
         name: "Envy Sweater",
         price: 49.99,
         image: [
-          "/src/assets/EnvySweater.jpg",
-          "/src/assets/EnvySweater1.jpg", 
-          "/src/assets/EnvySweater2.jpg"
+          "/assets/products/EnvySweater.jpg",
+          "/assets/products/EnvySweater1.jpg", 
+          "/assets/products/EnvySweater2.jpg"
         ],
         category: "sweaters",
         description: "Envy-themed sweater",
@@ -481,9 +481,9 @@ export const products = [
         name: "Ennui Sweater",
         price: 49.99,
         image: [
-          "/src/assets/Ennui_Sweater.jpg",
-          "/src/assets/Ennui_Sweater1.jpg", 
-          "/src/assets/Ennui_Sweater2.jpg"
+          "/assets/products/Ennui_Sweater.jpg",
+          "/assets/products/Ennui_Sweater1.jpg", 
+          "/assets/products/Ennui_Sweater2.jpg"
         ],
         category: "sweaters",
         description: "Ennui-themed sweater",
@@ -496,9 +496,9 @@ export const products = [
         name: "InsideOut Sweater",
         price: 49.99,
         image: [
-          "/src/assets/InsideOutSweater.jpg",
-          "/src/assets/InsideOutSweater1.jpg", 
-          "/src/assets/InsideOutSweater2.jpg"
+          "/assets/products/InsideOutSweater.jpg",
+          "/assets/products/InsideOutSweater1.jpg", 
+          "/assets/products/InsideOutSweater2.jpg"
         ],
         category: "sweaters",
         description: "InsideOut-themed sweater",
